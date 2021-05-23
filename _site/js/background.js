@@ -2,3 +2,26 @@
 particlesJS.load('particles-js', '/js/particles.json', function() {
     console.log('callback - particles.js config loaded');
 });
+
+let galleryItems = document.querySelectorAll(".gallery-item")
+let galleryItemsArray = [...galleryItems]
+let customModal = document.querySelector(".custom-modal")
+let customModalImageContainer = document.querySelector(".custom-modal-image-container")
+
+function openModal(image_url) {
+    customModal.classList.toggle("custom-modal-open")
+    customModalImageContainer.innerHTML = `<img class="custom-modal-image" src="${image_url}"/>`
+}
+
+customModal.addEventListener("click", e => {
+    class_list = [...e.target.classList]
+    if (class_list.includes("custom-modal-image")) return;
+    customModal.classList.toggle("custom-modal-open")
+})
+
+galleryItemsArray.forEach(item => {
+    item.addEventListener("click", e => {
+        imgUrl = e.target.firstElementChild.src
+        openModal(imgUrl)
+    })
+})
