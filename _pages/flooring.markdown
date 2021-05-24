@@ -41,7 +41,7 @@ permalink: /flooring/
             <img src="{{ site.baseurl }}/images/flooring/flooring (10).jpg" class="img img-thumbnail" alt="image" />
         </div>
         <div class="gallery-item gw-2">
-            <img src="{{ site.baseurl }}/images/flooring/flooring (11).jpg" class="img img-thumbnail" alt="image" /> <!--I LIKE THIS-->
+            <img src="{{ site.baseurl }}/images/flooring/flooring (11).jpg" class="img img-thumbnail" alt="image" />
         </div>
         <div class="gallery-item gh-2">
             <img src="{{ site.baseurl }}/images/flooring/flooring (12).jpg" class="img img-thumbnail" alt="image" />
