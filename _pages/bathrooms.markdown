@@ -1,0 +1,38 @@
+---
+layout: default
+title: Bathrooms
+permalink: /bathrooms/
+---
+
+<div class="secondary">
+    <div class="gallery-header">
+        <h1>{{ page.title }}</h1>
+        <p>Whether it’s a modern walk in shower or a relaxing new tub, your new bathroom will be a fresh place for you to unwind.</p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (1).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gw-4 gh-2">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (2).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2 gw-3">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (3).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-4 gw-2">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (7).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (4).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (5).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-3 gw-2">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (6).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/bathrooms/bathrooms (8).jpg" class="img img-thumbnail" alt="image" />
+        </div>                                                        
+    </div>
+</div>

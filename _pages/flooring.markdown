@@ -1,0 +1,59 @@
+---
+layout: default
+title: Flooring
+permalink: /flooring/
+---
+
+<div class="secondary">
+    <div class="gallery-header">
+        <h1>{{ page.title }}</h1>
+        <p>Your floors are the first thing people look at when walking into your home. <br>New flooring can drastically change the look of your home. <br><br>There are many different kinds of flooring to choose from for every space. From luxury vinyl to laminate, engineered hardwood & tile, we have a wide variety of flooring to meet your every need.</p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (1).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (2).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (3).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-4 gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (4).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (5).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (6).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2 gw-3">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (7).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2 gw-3">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (8).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (9).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (10).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (11).jpg" class="img img-thumbnail" alt="image" /> <!--I LIKE THIS-->
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (12).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-4 gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (13).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-4 gw-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (14).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+        <div class="gallery-item gh-2">
+            <img src="{{ site.baseurl }}/images/flooring/flooring (15).jpg" class="img img-thumbnail" alt="image" />
+        </div>
+    </div>
+</div>
