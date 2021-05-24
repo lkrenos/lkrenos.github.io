@@ -7,7 +7,7 @@ permalink: /
 <div class="home-header">
     <img src="../images/logo.png" class="home-header-logo">
     <nav class="navbar landing-nav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-open">
             <li class="nav-item"><a href="/about/" class="nav-link">About</a></li>        
             <li class="nav-item"><a href="/kitchens/" class="nav-link">Kitchens</a></li>
             <li class="nav-item"><a href="/bathrooms/" class="nav-link">Bathrooms</a></li>            

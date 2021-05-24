@@ -93,7 +93,7 @@ p {
 
 .landing-nav {
     justify-content: center;
-    height: 100px !important;
+    min-height: 100px;
 }
 
 .landing-nav > ul > li {
@@ -172,14 +172,12 @@ p {
     height: 150px;
 }
 
-/* position: fixed;
-top: 0;
-z-index: 10;
-background-color: #111;
-width: 100vw; */
-
 .navbar-brand-image {
     height: 75px;
+}
+
+.nav-button {
+    display: none;
 }
 
 .navbar-nav {
@@ -325,6 +323,90 @@ width: 100vw; */
         overflow-x: hidden;
     }
 
+    .home-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    .landing-nav {
+        display: flex;
+    }
+    
+    .navbar.landing-nav {
+        height: auto !important;
+    }
+
+    .landing-nav > ul {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .landing-nav > ul > li {
+        padding: 10px;
+        margin: 0 25px;
+    }
+
+    .navbar {
+        height: auto !important;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    .navbar-brand {
+        margin: 0;
+    }
+    
+    .nav-button {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    .nav-button:hover {
+        color: var(--color-orange);
+    }
+
+    .nav-button > i {
+        font-size: 3em;
+    }
+
+    .navbar-nav {
+        display: none;
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        margin-left: 0;
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    .nav-link {
+        font-family: "Orbitron", sans-serif;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: #ddd;
+        letter-spacing: 2px;
+    }
+    
+    .nav-link:hover {
+        color: var(--color-orange) !important;
+    }
+
+    .gallery-header {
+        border: none;
+        padding: 10px;
+    }
+
+    .nav-open {
+        display: flex;
+    }
+
     .gw-1 { grid-column: span 1; }
     .gw-2 { grid-column: span 1; }
     .gw-3 { grid-column: span 1; }
@@ -336,6 +418,20 @@ width: 100vw; */
     .gh-4 { grid-row: span 2; }
     
     .footer {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .footer-item:first-child {
+        text-align: center;
+    }
+
+    .footer-item:first-child > h4 {
+        border: none;
+    }
+
+    .footer-item:last-child {
+        display: none;
     }
 }
